@@ -1,5 +1,7 @@
 # A Web Application for Her Hackathon
 
+Our demo application: https://herhackathon.web.app/
+
 In the project directory, you can run:
 
 ### `npm start`
