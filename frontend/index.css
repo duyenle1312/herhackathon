@@ -5,19 +5,20 @@
     margin:0;
 }
 .container{
+    padding: 3em;
     min-height:100vh;
     display:flex;
     justify-content:center;
     align-items:center;
-    background-color:#eee;
+    background-color:#aed8f5;
 }
 .container .card{
-    height:500px;
-    width:800px;
+    height:715px;
+    width: 80%;
     background-color:#fff;
     position:relative;
     box-shadow:0 15px 30px rgba(0,0,0,0.1);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Arial', sans-serif;
     border-radius:20px;
 }
 .container .card .form{
@@ -180,7 +181,7 @@
     color:#cbced4;
 }
 .input-text{
-    margin:30px 0;
+    margin: 30px 0;
      display:flex;
     gap:20px;
 }
@@ -351,8 +352,28 @@ select{
 
 
 
+fieldset {
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 13px;
+    line-height: 19px;
+    font-family: arial;
+    border: 1px solid #cbced4;
+}
 
+textarea {
+    font-size:12px;
+    font-family:arial;
+    padding:10px;
+    border-radius: 5px;
+    border: 1px solid #cbced4;
+}
 
+.main-blurb{
+    font-size: 13px;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
 
 .checkmark__circle {
   stroke-dasharray: 166;

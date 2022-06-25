@@ -89,12 +89,12 @@ var step_num_content=document.querySelectorAll(".step-number-content");
  
  
 function validateform(){
-    validate=true;
+    let validate=true;
     var validate_inputs=document.querySelectorAll(".main.active input");
     validate_inputs.forEach(function(vaildate_input){
         vaildate_input.classList.remove('warning');
         if(vaildate_input.hasAttribute('require')){
-            if(vaildate_input.value.length==0){
+            if(vaildate_input.value.length === 0){
                 validate=false;
                 vaildate_input.classList.add('warning');
             }

@@ -5,15 +5,16 @@
     margin:0;
 }
 .container{
+    padding: 3em;
     min-height:100vh;
     display:flex;
     justify-content:center;
     align-items:center;
-    background-color:#eee;
+    background-color:#aed8f5;
 }
 .container .card{
     height:715px;
-    width:800px;
+    width: 80%;
     background-color:#fff;
     position:relative;
     box-shadow:0 15px 30px rgba(0,0,0,0.1);
